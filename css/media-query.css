@@ -1,0 +1,222 @@
+
+/* Be sure! I'm happy because you are here.. */
+
+
+/* Start Responsive for different screen */
+
+/* mobile */
+@media (min-width: 768px){
+    .container {
+        width: 750px;
+    }
+}
+
+/* tablet */
+@media (min-width: 992px){
+    .container {
+        width: 970px;
+    }
+}
+
+/* large */
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}
+
+
+/* End Responsive */
+
+
+/* Media for header */
+
+@media (max-width: 767px){
+    .header .logo {
+        height: 50px;
+        width: 100%;
+    }
+    
+    .header .logo::before {
+        left: 38%;
+        top: 8px;
+        
+    }
+
+    .header .main-nav {
+        margin: auto;
+    }
+    
+    .header .main-nav > li > a {
+        height: 40px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .header .mega-menue {
+        flex-direction: column;
+        gap: 0;
+        padding: 5px;
+    }
+    
+    .mega-menue .links:first-of-type {
+        border-bottom: 2px solid #e9e6e6;
+    }
+}
+
+@media (max-width: 991px) {
+    .header .mega-menue .image {
+        display: none;
+    }
+}
+
+/* End header responsive */
+
+/* Start responsive landing */
+
+@media (max-width: 767px) {
+    .landing .info h1 {
+        font-size: 28px;
+    }
+    
+    .landing .info p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 991px) {
+    .landing .info {
+        text-align: center;
+    }
+    
+    .landing .info p {
+        margin: 10px auto;
+    }
+    
+    .landing img {
+        display: none;
+    }
+}
+
+/* End resposive landing */
+
+/* Start responsive skills */
+
+@media (max-width: 767px) {
+    .skills .our-skills .skill .prog {
+        height: 15px;
+    }
+    
+    .skills .skill .prog span::before {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 991px) {
+    .skills .container {
+     grid-template-columns: 1fr;
+    }
+    
+     .skills img {
+         display: none;
+     }
+ }
+ 
+ /* End skills responsive */
+ 
+ 
+ /* Media responsive at work-step */
+@media (max-width :991px) {
+    .work-step .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .work-step .container img {
+        max-width: 300px;
+        margin-bottom: 30px;
+    }
+}
+
+/* End work-step responsive */
+
+/* Start responsive events */
+
+@media (max-width: 767px) {
+    .events .subscribe form {
+        max-width: 100%;
+        padding: 20px;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+    
+    .events .subscribe form input[type="email"],
+    .events .subscribe form input[type="submit"] {
+        border-radius: 10px;
+    }
+ }
+
+@media (max-width : 991px) {
+    .events img {
+        display: none;
+    }
+ }
+ 
+/* End responsive events */
+
+/* Start resposive of videos  */
+
+@media (max-width : 991px) {
+    .videos .holder {
+        flex-direction: column;
+    }
+ }
+ 
+/* End resposive of videos */
+
+
+/* Start resposive for discount */
+
+@media (max-width: 767px) {
+    .discount .content:first-of-type {
+        padding: 20px 20px;
+    } 
+    
+    .discount .content h2:last-of-type {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+ }
+ 
+
+/* Responsive Part of image */
+@media (max-width: 991px) {
+    .discount .image {
+        flex-basis: 100%;
+    }
+ }
+
+ /* Responsive of part of form */
+ @media (max-width :991px) {
+    .discount .form {
+        flex-basis: 100%;
+    }
+ }
+ 
+/* End resposive for discount */
+
+/* Start responsive for footer */
+
+@media (max-width: 767px) {
+    .footer {
+        text-align: center;
+    }
+    
+    .footer .box .social {
+       justify-content: center;
+}
+}
+
+/* End responsive for footer */
